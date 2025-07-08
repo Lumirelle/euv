@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>{{ count }}</h1>
+      <p v-text="count"></p>
+      <p v-if="count > 0">Count is greater than 0: <span>{{ count }}</span></p>
+      <p v-else>Count is less than or equal to 0: <span>{{ count }}</span></p>
+      <button @click="increment">Increment</button>
+      <button @click="decrement">Decrement</button>
+    </div>
+    <script src="js/euv.js"></script>
+    <script>
+      const app = new Euv({
+        el: "#app",
+        data: {
+          count: 0,
+        },
+        methods: {
+          increment() {
+            this.count++;
+          },
+          decrement() {
+            this.count--;
+          },
+        },
+      });
+      console.log("⏳ ~ index.html ~ app:", app);
+    </script>
+  </body>
+</html>
