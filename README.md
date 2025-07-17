@@ -7,8 +7,8 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)](.)
-[![GitHub Issues](https://img.shields.io/github/issues/Lumirelle/euv.svg)](https://github.com/Lumirelle/euv/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Lumirelle/euv.svg)](https://github.com/Lumirelle/euv/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/lumirelle/euv.svg)](https://github.com/lumirelle/euv/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lumirelle/euv.svg)](https://github.com/lumirelle/euv/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
@@ -44,6 +44,6 @@ Running `index.html` & `vue.html` and compared them with each other.
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@Lumirelle](https://github.com/Lumirelle) - Idea & Initial work
+- [@Lumirelle](https://github.com/lumirelle) - Idea & Initial work
 
-See also the list of [contributors](https://github.com/Lumirelle/euv/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/lumirelle/euv/contributors) who participated in this project.
